@@ -1,0 +1,134 @@
+.body {
+    margin:auto;
+    background-color:rgb(61, 65, 66);
+    text-align:left;
+    width:1323px;
+    overflow: hidden;
+}
+
+
+.header {
+  margin-top:42px;
+  width:1323px;
+  height:270px;
+}
+
+.mySlides{
+  display:none;
+  width:1323px;
+  height:270px;
+}
+
+@font-face{
+  font-family: dash;
+  src: url(Font/Zector.otf);
+}
+@font-face{
+  font-family: neoit;
+  src: url(Font/secrcode.ttf);
+}
+@font-face{
+  font-family: KAPSALONE;
+  src: url(Font/grot.ttf);
+}
+
+.menua {
+  background-color: #333;
+  display: block;
+  color: rgb(201, 201, 201);
+  text-align: center;
+  padding-right:57px ;
+  padding-left: 56.3px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-family: dash;
+  font-size: 26px;
+}
+
+.menuul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(22, 22, 22);
+  top: 0;
+  position: fixed;
+  width: 1323px;
+  
+}
+
+.menuactive{
+  background-color: rgb(0, 113, 121);;
+}
+
+.menuli a:hover {
+  background-color: rgb(0, 113, 121);
+}
+
+.menuli {
+  border: 1px solid rgb(0, 113, 121);
+  float: left;
+}
+
+.title1{
+  font-family: dash;
+  color: white;
+  text-indent: 120px;
+  font-size: 90px;
+  margin-left:150px;
+  font-weight: bold;
+}
+
+.title2{
+  font-family: dash;
+  color: white;
+  text-indent:0px;
+  font-size: 40px;
+  margin-left:130px;
+  margin-top: 30px;
+  border-bottom: white 1px solid;
+  display: inline-block;
+  line-height: 0.85;
+}
+.text1{
+  font-size: 26px;
+  font-family: dash;
+  text-indent: 60px;
+  color:  white;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+p {
+  font-size: 21px;
+  font-family: KAPSALONE;
+  text-indent: 60px;
+  color: white;
+  text-align: justify;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+
+}
+.p {
+  font-size: 21px;
+  font-family: KAPSALONE;
+  text-indent: 60px;
+  color: white;
+  text-align: justify;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+
+}
+.img{
+  padding-top: 20px;
+}
+video{
+  padding-top: 20px;
+}
